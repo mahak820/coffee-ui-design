@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    transition: all ease-in-out 0.3s;
+    
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #fefefe;
+}
+.nav-bar{
+    width: 100%;
+    height: 10vh;
+    background-color:#fefefe ;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 30px;
+    padding-inline-end: 80px;
+}
+.start{
+    width: 40%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.start a{
+    text-decoration: none;
+    color: black;
+}
+.start a:hover{
+    font-weight: 900;
+    color: #7f6459;
+}
+#pdt{
+    color: purple;
+}
+.end{
+    width: 14%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+hr{
+    width: 87%;
+}
+.hero-section{
+   width: 100%;
+   height: auto; 
+   display: flex;
+}
+.left-hero-section{
+    width: 60%;
+    height: 55vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    /* background-color: aqua; */
+    text-align: start;
+    margin-top: 40px;
+    padding-inline: 90px;
+}
+.star{height: 30px;
+    width: 30px;
+    background-color: #7f6459;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.star i{
+    color: white;
+}
+.left-hero-section h1{
+    color: #7f6459 ;
+    font-size: 55px;
+}
+.left-hero-section h1 span{
+    color: #ffbb00;
+    display: flex;
+}
+.yllw{
+ font-weight: 900;
+}
+
+.left-hero-section p{
+    font-size: 12px;
+}
+
+.left-hero-section button{
+    width: 20%;
+    height: 38px;
+    background-color: #ffbb00;
+    color: #7f6459;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+}
+.left-hero-section span a{
+    font-size: 15px;
+    color: #7f6459;
+    margin-left: 20px;
+}
+
+.right-hero-section{
+    width: 50%;
+    height: 65vh;
+    display: flex;
+    align-items: end;
+    padding-top: 50px;
+    position: relative;
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 190px;
+    position: absolute;
+    top: 15px;
+    left: 0px;
+    background-color: #f1bc2e;
+    color: #7f6459;
+    display: grid;
+    place-items: center;
+    font-size: 25px;
+    font-weight: 800; ;
+    border-style: double ;
+    border-width: 1px 10px;
+    border-color:#7f6459  ;  
+    
+  transform: rotate(20deg);
+}
+.image-section{
+    width: 70%;
+    height: 100%;
+    background-image: url(./images/coffee123.png);
+    background-position: center;
+    background-size: cover;
+   padding-top: 30px;
+}
+.rectangle{
+    width: 30%;
+    height: 18%;
+    background-color: #877164;
+    color: white;
+    border-radius: 13px;
+    font-size: 12px;
+    display: grid;
+    place-items: center;
+position: absolute;
+right: 170px;
+bottom: 110px;
+}
+.footer{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.begin-section{
+    width: 30%;
+    height: auto;
+
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   flex-direction: row; 
+   padding-left: 30px;
+}
+.begin-section p{
+    color: #ffbc03;
+    font-weight: 600;
+}
+.begin-section h3{
+    color: #7f6459;
+}
+.begin-section hr{
+    transform: rotate(90deg);
+    background-color: #c8bdb7;
+    color: #c8bdb7 ;
+    width: 50px;
+}
+.ending-section{
+    width: 30%;
+    height: auto;
+    padding-top: 50px;
+}
+.ending-section i{
+color: #ffe189;
+font-size: 10px;
+}
+.ending-section h1{
+    color: #7f6459;
+    font-size: 15px;
+}
+
+.ending-section span{
+    width: 100%;
+    display: flex;
+}
+#no{
+color: #ffbb00;
+margin-right: 105px;
+}
+.ending-section h5{
+    color: #877164;
+    font-size: 10px;
+}
+@media(max-width:768px){
+    .container{
+        width: 100%;
+        height: auto;
+    }
+    .nav-bar{
+        width: 100%;
+        height: 10vh; }
+        .start{
+            width: 100%;
+        }
+        .start a{
+            font-size: 10px;
+        }
+       .end i{
+        display: none;
+       }
+       #sc{
+        display: flex;
+       margin-left: 90px;
+       }
+       .hero-section{
+        background-color: #877164;
+        width: 100%;
+        height: auto; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+     
+     }
+     .left-hero-section{
+        background-color: #ece8e6;
+        border-radius: 20px;
+        border: 10px solid #7f6459;
+       width: 400px;
+       height: 40vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+     }
+     .star{
+ display: none;
+     }
+    
+     .left-hero-section h1{
+       
+        font-size: 25px;
+     }
+     .left-hero-section p{
+ 
+        font-size: 10px;
+        text-align: center;
+     }
+     .left-hero-section button{
+
+        width: 30%;
+        height: 38px;
+    }
+    .left-hero-section span {
+        width: 100%;
+        height: auto;
+        display: grid;
+        place-items: center;
+    }
+        .left-hero-section a{
+         display: none;
+        }
+        .right-hero-section{
+            width: 70%;
+            height: 50vh;
+            /* background-color: aqua; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .circle{
+            display: none;
+        }
+        .rectangle{
+            display: none;
+        }
+        .image-section{
+          
+            background-image: url(./images/coffee123.png);
+            background-position: center;
+            background-size: cover;
+           padding-top: 30px;
+        }
+        .footer{
+            width: 100%;
+            height: auto;
+        }
+        .begin-section{
+            width: 50%;
+            height: auto;
+            padding-top: 60px;
+        }
+        .begin-section p{
+         font-size: 10px;
+        }
+        .begin-section h3{
+        font-size: 12px;
+        }
+}
